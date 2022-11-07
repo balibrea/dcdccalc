@@ -22,7 +22,7 @@ function varargout = tesis(varargin)
 
 % Edit the above text to modify the response to help tesis
 
-% Last Modified by GUIDE v2.5 05-Nov-2022 13:38:55
+% Last Modified by GUIDE v2.5 07-Nov-2022 17:47:12
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -71,3 +71,263 @@ function varargout = tesis_OutputFcn(hObject, eventdata, handles)
 
 % Get default command line output from handles structure
 varargout{1} = handles.output;
+
+
+
+function edvinmax_Callback(hObject, eventdata, handles)
+% hObject    handle to edvinmax (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edvinmax as text
+%        str2double(get(hObject,'String')) returns contents of edvinmax as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edvinmax_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edvinmax (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function evinmin_Callback(hObject, eventdata, handles)
+% hObject    handle to evinmin (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of evinmin as text
+%        str2double(get(hObject,'String')) returns contents of evinmin as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function evinmin_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to evinmin (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edvinnom_Callback(hObject, eventdata, handles)
+% hObject    handle to edvinnom (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edvinnom as text
+%        str2double(get(hObject,'String')) returns contents of edvinnom as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edvinnom_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edvinnom (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edvout_Callback(hObject, eventdata, handles)
+% hObject    handle to edvout (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edvout as text
+%        str2double(get(hObject,'String')) returns contents of edvout as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edvout_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edvout (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function ediout_Callback(hObject, eventdata, handles)
+% hObject    handle to ediout (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of ediout as text
+%        str2double(get(hObject,'String')) returns contents of ediout as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function ediout_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to ediout (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edripple_Callback(hObject, eventdata, handles)
+% hObject    handle to edripple (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edripple as text
+%        str2double(get(hObject,'String')) returns contents of edripple as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edripple_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edripple (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edcesr_Callback(hObject, eventdata, handles)
+% hObject    handle to edcesr (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edcesr as text
+%        str2double(get(hObject,'String')) returns contents of edcesr as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edcesr_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edcesr (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edimaxsw_Callback(hObject, eventdata, handles)
+% hObject    handle to edimaxsw (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edimaxsw as text
+%        str2double(get(hObject,'String')) returns contents of edimaxsw as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edimaxsw_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edimaxsw (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edfreq_Callback(hObject, eventdata, handles)
+% hObject    handle to edfreq (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edfreq as text
+%        str2double(get(hObject,'String')) returns contents of edfreq as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edfreq_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edfreq (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edforward_Callback(hObject, eventdata, handles)
+% hObject    handle to edforward (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edforward as text
+%        str2double(get(hObject,'String')) returns contents of edforward as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edforward_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edforward (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+
+function edeff_Callback(hObject, eventdata, handles)
+% hObject    handle to edeff (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edeff as text
+%        str2double(get(hObject,'String')) returns contents of edeff as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edeff_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edeff (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on button press in bcalc.
+function bcalc_Callback(hObject, eventdata, handles)
+% hObject    handle to bcalc (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
